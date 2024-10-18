@@ -4,7 +4,7 @@ from googleapiclient.http import MediaFileUpload
 
 SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'service_account.json'
-PARENT_FOLDER_ID = "1KkjvlguInIElwSt90b_B6VG_1l4Hu8_B"
+PARENT_FOLDER_ID = "your_googledrive_folerID"
 
 def authenticate():
     creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
