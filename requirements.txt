@@ -1,0 +1,11 @@
+#!pip install -r requirements.txt
+Flask == 3.0.3
+requests == 2.31.0
+line-bot-sdk == 3.11.0
+python-decouple == 3.8
+rembg == 2.0.57
+openai == 1.30.4
+google-api-python-client == 2.120.0
+google-auth == 2.35.0
+pandas == 2.2.2
+openpywxl == 3.1.5
